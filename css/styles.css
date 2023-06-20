@@ -211,10 +211,21 @@ img {
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)
         ),
-        url("../images/people-office.jpg");
+        url("../images/dark-bg-mob.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url("../images/dark-bg-mob-2x.jpg");
+    }
 }
 
 .hero-title {
