@@ -191,6 +191,7 @@ img {
 }
 
 .header-mob-address{
+    font-style: normal;
     margin-bottom: 48px;
 }
 .menu-soc-list {
@@ -204,7 +205,7 @@ img {
     padding-top: 112px;
     padding-bottom: 112px;
 
-    height: 600px;
+    
     max-width: 1555px;
     margin: 0 auto;
     background-image: linear-gradient(
@@ -275,7 +276,7 @@ img {
 .content-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
 }
 
 .content-list-item {
@@ -310,7 +311,7 @@ img {
 .team-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
 }
 
 .team-list-item {
@@ -645,7 +646,8 @@ img {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 300ms linear;
-    width: 408px;
+    /* width: 408px; */
+    width: 100%;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
     background-color: var(--color-modal-background);
