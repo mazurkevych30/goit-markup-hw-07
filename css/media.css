@@ -125,6 +125,10 @@
     .title-content {
         text-align: left;
     }
+    
+    .content-text {
+        font-weight: 400;
+    }
 
     .content-list {
         gap: 72px 24px;

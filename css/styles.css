@@ -93,7 +93,6 @@ img {
 }
 
 .medium-text {
-    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -112,9 +111,12 @@ img {
 }
 
 
+.site-logo {
+    display: block;
+    padding: 24px 0;
+}
+
 .header-container {
-    padding-top: 24px;
-    padding-bottom: 22px;
     display: flex;
     justify-content: space-between;
 }
@@ -271,6 +273,10 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-dark);
+}
+
+.content-text {
+    font-weight: 500;
 }
 
 .content-list {
